@@ -1,3 +1,3 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+index:
+    path: /Acceuille
+    controller: App\Controller\AcceuilleController::getWiewAction
