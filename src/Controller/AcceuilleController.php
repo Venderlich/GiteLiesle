@@ -13,7 +13,8 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class AcceuilleController extends Controller
 {
-    public function getWiewAction(){
+    public function getWiewAcceuilAction(){
         return $this->render('Front/Acceuil/index.html.twig');
     }
+
 }
