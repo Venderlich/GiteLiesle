@@ -7,9 +7,9 @@
 </head>
 
 <body class="fixed-nav sticky-footer">
-    <nav>
-        {% block nav %}{%include'Front/Common/navigation.html.twig'%}{% endblock %}
-    </nav>
+<nav>
+    {% block nav %}{%include'Back/Common/navigation.html.twig'%}{% endblock %}
+</nav>
 {% block body %}{% endblock %}
 {% block javascripts %}
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -18,7 +18,5 @@
     <script src="{{ asset('build/js/app.js') }}"
 {% endblock %}
 </body>
-<footer>
-    {% block footer %}{%include'Front/Common/footer.html.twig'%}{% endblock %}
-</footer>
+
 </html>
